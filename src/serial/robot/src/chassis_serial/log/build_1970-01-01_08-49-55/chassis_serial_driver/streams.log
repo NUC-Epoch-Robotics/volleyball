@@ -1,0 +1,120 @@
+[0.021s] Invoking command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/epoch_orin_nx/Desktop/robot/src/chassis_serial -DCMAKE_INSTALL_PREFIX=/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver
+[0.133s] -- The C compiler identification is GNU 9.4.0
+[0.232s] -- The CXX compiler identification is GNU 9.4.0
+[0.241s] -- Check for working C compiler: /usr/bin/cc
+[0.380s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.381s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.541s] -- Detecting C compile features
+[0.543s] -- Detecting C compile features - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.699s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.887s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.937s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.937s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.622s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.770s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.832s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.085s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.088s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.090s] -- Looking for pthread.h
+[2.232s] -- Looking for pthread.h - found
+[2.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.379s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.379s] -- Looking for pthread_create in pthreads
+[2.495s] -- Looking for pthread_create in pthreads - not found
+[2.495s] -- Looking for pthread_create in pthread
+[2.635s] -- Looking for pthread_create in pthread - found
+[2.635s] -- Found Threads: TRUE  
+[4.181s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.253s] -- Configured cppcheck include dirs: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/include
+[4.254s] -- Configured cppcheck exclude dirs and/or files: 
+[4.272s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.272s] -- Configured cpplint exclude dirs and/or files: 
+[4.275s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.280s] -- Added test 'lint_cmake' to check CMake code style
+[4.283s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.286s] -- Added test 'xmllint' to check XML markup files
+[4.299s] -- Configuring done
+[4.355s] -- Generating done
+[4.360s] -- Build files have been written to: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver
+[4.388s] Invoked command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/epoch_orin_nx/Desktop/robot/src/chassis_serial -DCMAKE_INSTALL_PREFIX=/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver
+[4.396s] Invoking command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver -- -j4 -l4
+[4.454s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[4.500s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.099s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.439s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.925s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.994s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.994s] -- Configured cppcheck include dirs: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/include
+[6.995s] -- Configured cppcheck exclude dirs and/or files: 
+[7.018s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.019s] -- Configured cpplint exclude dirs and/or files: 
+[7.022s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.028s] -- Added test 'lint_cmake' to check CMake code style
+[7.032s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.035s] -- Added test 'xmllint' to check XML markup files
+[7.047s] -- Configuring done
+[7.104s] -- Generating done
+[7.110s] -- Build files have been written to: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver
+[7.171s] [35m[1mScanning dependencies of target chassis_serial_driver_node[0m
+[7.171s] [35m[1mScanning dependencies of target chassis_serial_driver[0m
+[7.227s] make[2]: Warning: File '/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp' has modification time 1685161957 s in the future
+[7.233s] make[2]: Warning: File '../../src/chassis_serial_driver.cpp' has modification time 1732358198 s in the future
+[7.268s] [ 40%] [32mBuilding CXX object CMakeFiles/chassis_serial_driver.dir/src/chassis_serial_driver.cpp.o[0m
+[7.269s] [ 40%] [32mBuilding CXX object CMakeFiles/chassis_serial_driver.dir/src/crc.cpp.o[0m
+[7.273s] [ 60%] [32mBuilding CXX object CMakeFiles/chassis_serial_driver_node.dir/rclcpp_components/node_main_chassis_serial_driver_node.cpp.o[0m
+[12.880s] [ 80%] [32m[1mLinking CXX executable chassis_serial_driver_node[0m
+[13.137s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[13.154s] [ 80%] Built target chassis_serial_driver_node
+[21.715s] [100%] [32m[1mLinking CXX shared library libchassis_serial_driver.so[0m
+[22.406s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.422s] [100%] Built target chassis_serial_driver
+[22.446s] Invoked command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver -- -j4 -l4
+[22.524s] Invoking command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver
+[22.542s] -- Install configuration: ""
+[22.543s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/lib/chassis_serial_driver/chassis_serial_driver_node
+[22.546s] -- Set runtime path of "/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/lib/chassis_serial_driver/chassis_serial_driver_node" to ""
+[22.546s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/include
+[22.546s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/include/chassis_serial_driver
+[22.546s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/include/chassis_serial_driver/packet.hpp
+[22.547s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/include/chassis_serial_driver/crc.hpp
+[22.547s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/include/chassis_serial_driver/chassis_serial_driver.hpp
+[22.547s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/library_path.sh
+[22.547s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/library_path.dsv
+[22.547s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/lib/libchassis_serial_driver.so
+[22.557s] -- Set runtime path of "/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/lib/libchassis_serial_driver.so" to ""
+[22.557s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/config
+[22.557s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/config/serial_driver.yaml
+[22.558s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/launch
+[22.558s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/launch/serial_driver.launch.py
+[22.558s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/ament_index/resource_index/package_run_dependencies/chassis_serial_driver
+[22.558s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/ament_index/resource_index/parent_prefix_path/chassis_serial_driver
+[22.558s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/ament_prefix_path.sh
+[22.558s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/ament_prefix_path.dsv
+[22.559s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/path.sh
+[22.559s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/environment/path.dsv
+[22.560s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/local_setup.bash
+[22.560s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/local_setup.sh
+[22.560s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/local_setup.zsh
+[22.561s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/local_setup.dsv
+[22.561s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/package.dsv
+[22.561s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/ament_index/resource_index/packages/chassis_serial_driver
+[22.562s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/ament_index/resource_index/rclcpp_components/chassis_serial_driver
+[22.562s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.563s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.563s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[22.563s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/cmake/chassis_serial_driverConfig.cmake
+[22.564s] -- Installing: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/cmake/chassis_serial_driverConfig-version.cmake
+[22.564s] -- Up-to-date: /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/install/chassis_serial_driver/share/chassis_serial_driver/package.xml
+[22.569s] Invoked command in '/home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/epoch_orin_nx/Desktop/robot/src/chassis_serial/build/chassis_serial_driver
